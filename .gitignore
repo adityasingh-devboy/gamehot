@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production Next.js Build Output
+.next/
+out/
+build/
+dist/
+
+# Private Temporary Uploads & User Media (NEVER COMMIT)
+private_uploads/
+private_uploads/*
+!private_uploads/.gitkeep
+
+# Environment variables & Secrets (NEVER COMMIT)
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+# Preserve placeholder example template only
+!.env.example
+
+# Logs and Debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test Artifacts & Local Run Outputs
+tests/*.png
+tests/*.jpg
+tests/*.webp
+tests/test_audit_*.png
+tests/test_audit_*.jpg
+tests/test_rps_proof.png
+tests/test_sample.png
+
+# TypeScript Build Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Standalone GitHub Upload Distribution Directory
+GITHUB_UPLOAD/
+*.swp
+*.swo
+
